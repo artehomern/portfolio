@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+    <title>Form and Table Example</title>
+</head>
+
+<body>
+    <p>
+        <table border="none">
+            <tr>
+                <th>Web developing</th>
+                <th>Artificial intelligence</th>
+            </tr>
+
+            <tr>
+                <td>within 2 months</td>
+                <td>within 3 months</td>
+            </tr>
+        </table>
+    </p>
+
+    
+<form action="index.php" method="post" enctype="multipart/form-data">
+
+    <label for="username">username</label>
+    <input type="text" id="username" placeholder="artehomern" maxlength="15" minlength="6"><br>
+
+    <label for="password">password</label>
+    <input type="password" id="password"> <br>
+
+    <label for="email">email</label>
+    <input type="email" id="email"placeholder"artehomern@gmail.com"> <br>
+
+    <label for="phone">phone no.</label>
+    <input type="tel" id="phone" placeholder="079-225-0673"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br>
+
+    <label for="bday">birthdate</label>
+    <input type="date" id="bday"> <br>
+
+    <label for="quantity">quantity</label>
+    <input type="number" id="quantity" min="0" max="99" value="1"> <br>
+
+     <label for="title">title:</label>
+     <label for="mr">mr</label>
+     <input type="radio" id="mr" value="mr" name="title">
+     <label for="mrs">mrs</label>  
+     <input type="radio" id="mrs" value="mrs" name="title">
+     <label for="ms">ms</label>  
+     <input type="radio" id="ms" value="ms" name="title"> <br>
+     
+    <label for="payment">payment</label>
+
+    <select name="payment" id="payment">
+        <option value="visa">visa</option>
+        <option value="mastercard">mastercard</option>
+        <option value="giftcard">giftcard</option>
+    </select><br>
+
+    <label for="subscribe">subscribe</label>
+    <input type="checkbox" id="subscribe"><br>
+
+    <label for="comment">comments:</label>
+    <textarea name="comment" id="comment" cols="20" rows="3"></textarea><br>
+
+    <label for="file">file</label>
+    <input type="file" id="file" accept="image/png,image/jpeg,video/mp4"><br>
+
+
+
+    <input type="reset"><br>
+    <input type="submit">
+
+
+
+
+
+</form>
+
+
+    
+</body>
+  <a href="index.html" target="_blank"> Home</a>
+
+</html>
